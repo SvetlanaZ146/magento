@@ -1,0 +1,1000 @@
+
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+ul,
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Bitter', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+.title{
+    font-family: 'Bitter', serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 50px;
+    
+}
+.title span{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+.header{
+    background-color: #141414;
+    color: #FFFFFF;
+    padding: 95px 25px 33px 25px;
+}
+.header__inner{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.header__content-items{
+    display: flex;
+    flex-direction: column;
+    max-width: 567px;
+}
+
+.header__content-item{
+    margin-bottom: 35px;
+}
+
+.header-title{
+    font-size: 72px;
+}
+
+.header-sibtitle{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 53px;
+    position: relative;
+    width: 165px;
+}
+.header-sibtitle::before{
+    content: '';
+    background-image: url(../images/icon1.png);
+    position: absolute;
+    width: 26px;
+    height: 23px;
+    left: -49px;
+
+}
+.header-title{
+    font-family: 'Bitter', serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 86px;
+    color: #F8C700;
+    max-width: 565px;
+}
+
+
+.header-text{
+    font-family: 'Montserrat', sans-serif;
+    overflow-wrap: break-word;
+    width: 75%;
+}
+    
+   
+.header-btn{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.header__btn-buy{
+    padding: 14px 60px;
+    background-color:  #F8C700;
+    color: #000000;
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+}
+.header__btn-buy:hover{
+    border: 1px solid #F8C700;
+    color: #F8C700;
+    background-color: transparent;
+    transition: all .5s;
+}
+.header__btn-demo{
+   border: 1px solid #F8C700;
+    color: #F8C700;
+    padding: 14px 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    font-family: 'Bitter', serif;
+}
+.header__btn-demo:hover{
+    background-color: #Ffff;
+    color: #000000;
+    font-weight: 700;
+    border: 1px solid transparent;
+    transition: all .5s;
+}
+.header__btn-buy +.header__btn-demo{
+    margin-left: 24px;
+}
+.guide{
+    background-color: #F8C700;
+    padding: 86px 0 96px;
+}
+.guide-title-icon{
+    position: relative;
+    margin-left: 75px;
+}
+.guide__items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.guide__item{
+    max-width: 266px;
+    text-align: center;
+}
+.guide__title{
+    margin-left: 138px;
+    max-width: 566px;
+    margin-bottom: 63px;
+    z-index: 2;
+    margin-left: 95px;
+}
+.prj_h1_image{
+    position: absolute;
+    
+}
+
+.guide__item-img{
+    margin-bottom: 24px;
+}
+.guide-logo{
+    position: relative;
+}
+.guide__item-logo{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.guide-instal{
+    position: relative;
+}
+.guide__item-instal{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.guide-use{
+    position: relative;
+}
+.guide__item-use{
+    position: absolute;
+    left: 40px;
+    top: 23.6px;
+}
+
+
+.guide__item-content{
+  margin: 0 auto;
+  max-width: 190px;
+}
+.guide__item--title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 15px;
+}
+.key{
+    padding: 108px 0 121px;
+} 
+
+.key__inner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.key__title{
+    margin-bottom: 50px;
+    max-width: 316px;
+}
+.key__text{
+    max-width: 492px;
+    margin-bottom: 40px;
+}
+
+
+.Networks{
+    display: flex;
+    justify-content: space-between;
+    padding: 118px 0 0;
+    position: relative;
+}
+.Networks__img-networks{
+    margin-top: 152px;
+    
+}   
+.magento-logo{
+    position: absolute;
+    top: -128px;
+    left: 148px;
+}
+.Networks__content{
+    max-width: 477px;
+    text-align: right;
+}
+.Networks__title {
+    margin-bottom: 50px;
+
+}
+.network__text-info{
+    margin-bottom: 40px;
+    max-width: 448px;
+    float: right;
+}
+
+.network__btn{
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000;
+    padding: 14px 24px 14px 81px;
+    background-color: inherit;
+    border: 1px solid #F8C700;
+    margin-bottom: 46px;
+    position: relative;
+    cursor: pointer;
+}
+.network__btn:hover{
+    color: #F8C700;
+    transition: all .5s;
+}
+.network__btn::before{
+    content: "";
+    position: absolute;
+    width: 86px;
+    height: 99px;
+    background-image: url(../images/network__btn.png);
+    top: -20px;
+    left: 20px;
+}
+.network__text-documentation{
+    max-width: 301px;
+    float: right;
+}
+.platform-documentation{
+    text-decoration: underline;
+    color: #F8C700;
+}
+
+
+
+.secure{
+    background-color: #F8C700;
+    padding: 83px 0 50px;
+    background-image: url(../images/lines.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.secure__inner{
+    position: relative;
+}
+    
+.secure__content{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 75px;
+    
+}
+.secure__background{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.secure__content li{
+    max-width: 300px;
+    margin-bottom: 105px;
+}
+.secure__arrow{
+    width: 63%;
+    position: absolute;
+    
+}
+.secure__title{
+    line-height: 63px;
+}    
+.secure-fon--left{
+    margin-right: 33px;
+}
+.text-left{
+    text-align: right;
+    margin-left: 155px;
+}
+.text-right{
+    text-align: left;
+   margin-right: 125px;
+}
+
+
+.profile{
+    background-color: #141414;
+    background-image: url(../images/profile-fon.svg);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding-top: 44px;
+    background-size: cover;
+    min-height: 850px;
+    position: relative;
+}
+
+.profile__inner {
+    display: flex;
+    justify-content: space-between;
+}   
+.profile__img {
+    margin-right: 44px;
+    
+}
+.profile__box {
+    color: #FFFFFF;
+    text-align: right;
+    max-width: 386px;
+}
+.profile__title {
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    max-width: 385px;
+    margin-top: 69px;
+}
+
+.profile__content {
+    margin-left: 74px;
+   
+
+}
+.profile__text {
+    margin-bottom: 30px;
+    max-width: 312px;
+}
+.gifts {
+    position: absolute;
+    bottom: 10px;
+    
+}
+.personalize{
+    padding: 10px 0 10px;
+    background-image: url(../images/personalize-fon.svg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: bottom;
+    position: relative;
+    height: 926px;
+}
+
+
+
+.personalize__box{
+    padding-top: 87px;
+    max-width: 500px;
+    
+}
+.personalize__img{
+    position: absolute;
+    
+}
+
+.personalize__title{
+    max-width: 500px;
+}
+.personalize__text{
+    margin-bottom: 37px;
+    max-width: 328px;
+}
+.user-experiens__img{
+    display: none;
+    
+    position: absolute;
+}
+.footer{
+    background-color: #F8C700;
+    padding: 15px 0 15px;
+    text-align: center;
+}
+
+
+
+
+
+ @media( max-width: 1500px){
+    .header{
+        padding: 55px 25px 63px 25px;
+    
+    }
+       
+    .header__content-items{
+        width: 50%;
+        
+    }
+    .face{
+        margin-left: 25px;
+       width: 50%;
+       height: auto;
+    }
+    .header-title{
+        font-size: 64px;
+    }
+        
+    .header-btn{
+        padding: 0;
+        width: 50%;
+        text-align: center;
+        flex-direction: column;
+    }               
+    .header__btn-buy +.header__btn-demo{
+        margin-left: 0;
+        margin-top: 24px;
+    }  
+    .header__btn-buy{
+        font-size: 15px;
+        padding: 7px 30px;
+       
+    }
+    .header__btn-demo{
+        font-size: 15px;
+        padding: 7px 30px;
+      
+    }
+    .guide {
+        padding: 106px 0 96px;
+    }
+    .guide__title {
+     margin-bottom: 33px;
+    }
+    .profile__inner{
+        justify-content: space-around;
+    }
+    .profile__img{
+        width: 50%;
+    }
+    .gifts{
+        width: 80%;
+    }
+   
+    .personalize__img {
+        width: 80%;
+        right: 30px;
+        bottom: 110px;
+    }
+    
+}
+@media( max-width: 1360px){
+   .header-sibtitle{
+    margin-bottom: 25px;
+    }
+    
+} 
+
+@media( max-width: 1230px){
+    .header__inner{
+        align-items: center;
+    }
+    
+    .header__content-items{
+        padding: 0 25px;
+        top: 0;
+    }
+    .face{
+       height: auto;
+    }
+    
+    
+    
+    .header__btn-buy{
+        font-size: 15px;
+        padding: 3px 15px;
+        width: 75%;
+    }
+    .header__btn-demo{
+        font-size: 15px;
+        padding: 7px 15px;
+        width: 75%;
+    } 
+    .header-title{
+        font-size: 56px;
+        line-height: 74px;
+        margin-bottom: 25px;
+    }
+    .guide__item--title {
+        
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 8px;
+    }
+    .guide__item-img {
+       margin-bottom: 33px;
+     }
+     
+     .secure-fon--right{
+        width: 25%;
+        height: 30%;
+        margin-top: 73px;
+     }
+     .secure-fon--left {
+        
+        width: 25%;
+        height: 30%;
+        margin-top: 73px;
+    }
+    .secure__content {
+        margin-top: 75px;
+    }
+    .profile__img{
+        margin-right: 0;
+        margin-left: 33px;
+    }
+}
+
+@media( max-width: 1120px){
+    .magento-logo {
+        top: 32px;
+        width: 11%;
+    }
+    .key__img{
+        width: 50%; 
+    }
+    .Networks__img-networks{
+        width: 50%; 
+    }
+    
+} 
+ @media( max-width: 1090px){
+    
+    .magento-logo {
+        top: 72px;
+        
+    }
+    
+    .secure__content {
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 9;
+        max-width: 335px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 103px;
+    }
+    .secure__content li {
+        max-width: 360px;
+        margin-bottom: 45px;
+    }
+    .secure__text {
+        text-align: center;
+    }
+    .text-left{
+        margin-left: 0;
+    }
+    .text-right{
+        margin-right: 0;
+    }
+    .gifts{
+        left: 85px;
+        top: 535px;
+    }
+    
+    .profile__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gifts {
+        top: 410px;
+    }   
+    .profile{
+        background-image: none;
+    }
+    .profile__box{
+        margin-top: 105px;
+        margin-bottom: 55px;
+    }
+    
+    .personalize__box {
+        margin-left: 145px;
+    }
+}   
+@media( max-width: 1050px){
+    .header__content-items{
+        max-width: none;
+        width: 90%;
+    }
+    .header__inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header__content-item {
+        margin-bottom: 35px;
+        justify-content: center;
+    }        
+    .header-btn{
+       padding: 0;
+       width: 30%;
+       text-align: center;
+    }
+    
+    .face{
+        width: 40%;
+        margin-left: 205px;
+        height: auto;
+    }
+    .header-title{
+       
+        line-height: 74px;
+    }
+     .header__btn-buy{
+        display: block;
+        width: 100%;
+    }
+    .header__btn-demo{
+        align-items: center;
+        width: 100%;
+
+    }
+    .guide{
+        padding-bottom: 25px;
+    }
+    .guide__title{
+        font-size: 32px;
+    }
+    .guide__title span{
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .guide__items{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .guide__item{
+        margin-bottom: 55px;
+    }
+    .guide__item-img {
+        margin-bottom: 5px;
+    }
+    .guide-title-icon{
+        
+        max-width: 415px;
+        margin: 0 auto;
+    }
+    .secure{
+        padding: 69px 0 60px;
+    }
+    
+}
+
+
+@media( max-width: 970px){
+    .key__inner{
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    .key__img{
+        width: 60%; 
+    }
+    .Networks{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Networks__img-networks {
+        order: 9;
+        margin-bottom: 55px;
+        width: 60%;
+        margin-top: 62px;
+    }
+    .key{
+        padding: 69px 0 0;
+    }
+    
+    .secure{
+        padding: 69px 0 0;
+    }
+}
+
+
+@media( max-width: 810px){
+    .header-btn {
+        width: 50%;
+    }
+    .magento-logo {
+        left: 111px;
+    }   
+    img.gifts {
+        top: 353px;
+        
+    }
+}
+@media( max-width: 770px){
+    .magento-logo{
+        display: none;
+    }
+    
+}
+@media( max-width: 675px){
+    .gifts {
+        width: 70%;
+        top: 300px;
+        left: 119.9px;
+    }
+    .profile__title{
+        margin-top: 135px;
+    }
+    .personalize__box {
+        padding-top: 45px;
+    }
+    .personalize__box {
+        margin-left: 100px;
+    }
+    .personalize__img{
+        visibility: hidden;
+    }
+    .user-experiens__img{
+        display: block;
+        width: 90%;
+        right: 0;
+        bottom: 72px;
+    }
+}
+@media( max-width: 630px){
+
+   .header__content-items{
+     width: 100%;
+    }
+    .header__content-item{
+    margin-bottom: 35px;
+    }
+    .guide__title {
+        font-size: 28px;
+    }
+    .guide__title span {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .secure {
+        padding-top: 55px;
+    }
+    .secure__arrow{
+        width: 75%;
+        top: 25%;
+        left: 14%;
+    }
+    .secure-fon--left{
+        visibility: hidden;
+    }
+    .secure-fon--right{
+        visibility: hidden;
+    }
+    .secure__title{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .profile__img {
+       
+        width: 70%;
+    }
+    .profile__title.title {
+        max-width: 100%;
+    }
+    .profile__text {
+        max-width: 100%;
+    }
+    
+}
+
+
+@media( max-width: 540px){
+    .header{
+        padding: 45px 25px 33px 25px;
+    }
+    .header-text{
+        width: 90%;
+    }
+    .header-title{
+        font-size: 44px;
+        line-height: 48px;
+    }
+    .header-btn{
+       padding: 0; 
+       width: 60%;
+    }
+    .face{
+        display: none;
+    }
+    
+    .header-text{
+        font-size: 12px;
+    }
+    .header__content-item {
+        margin-bottom: 25px;
+    }
+     .guide{
+         padding-top: 58px;
+    }
+     .guide__title {
+        margin-left: -2px;
+        font-size: 25px;
+        margin-right: 12px;
+    }
+    .guide__title span {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .guide__title::before {
+        
+        position: unset;
+        
+    }
+    .prj_h1_image {
+        display: none;
+    }
+    .profile__img {
+        width: 75%;
+    }
+     .profile__title{
+      margin-top: 55px;
+     }
+    .personalize__box {
+    margin-left: 55px;
+    }
+}
+@media( max-width: 490px){
+    .secure__content{
+        margin-top: 55px;
+    }
+    .gifts {
+        top: 333px;
+        left: 89.9px;
+    }
+    .profile__content {
+        margin-left: 0;
+        
+    }
+    .personalize__box {
+        margin-left: 35px;
+    }
+    .user-experiens__img{
+        width: 100%;
+    }
+}
+@media( max-width: 450px){
+    .guide__title {
+        margin-left: 28px;
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .guide__title span {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .header-btn {
+        width: 100%;
+    }
+    
+    .secure__title{
+        font-size: 22px;
+    }
+    .secure__arrow{
+        width: 90%;
+        left: 6%;
+        top: 43px;
+    }
+    .secure__content{
+        margin-top: 125px;
+    }
+    .profile__title{
+        font-size: 30px;
+        max-width: 90%;
+        font-size: 22px;
+    }
+    .profile__img{
+        width: 90%;
+    }
+    .gifts{
+        display: none;
+    }
+    .profile__box {
+        margin-top: 0;
+    }
+    .personalize__box {
+        margin-left: 0;
+    }  
+    .personalize__title{
+        font-size: 30px;
+        max-width: 90%;
+        font-size: 22px;
+    }
+    .user-experiens__img {
+        
+        bottom: 92px;
+    }
+    .secure__title{
+       
+        line-height: 33px;
+    }
+}
+@media( max-width: 425px){
+    .personalize{
+        height: 786px;
+    }
+    .user-experiens__img {
+        bottom: 12px;
+    }
+}
+@media( max-width: 370px){
+    .secure__arrow {
+        top: 61px;
+   }
+}
+    
+@media( max-width: 360px){
+    
+    .header-title {
+        font-size: 34px;
+        line-height: 38px;
+    }
+    .secure__content {
+        margin-top: 100px;
+    }
+    .secure__arrow {
+         top: 51px;
+    }
+    .user-experiens__img{
+        width: 100%;
+        bottom: 52px;
+    }
+    .header-btn {
+        width: 100%;
+    }
+}
+@media( max-width: 325px){
+    .secure__arrow {
+        top: 71px;
+   }
+}
+    
+     
+  
